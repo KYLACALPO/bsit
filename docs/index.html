@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <img src="logo.jpg" class="logo">
+
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#mywork">MY WORKS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <!-- Home Section -->
+        <div id="home" class="info">
+            <h3>Hi, I'm <span>Kyla Calpo</span>.</h3>
+            <h1><span>W</span>EB <span>D</span>ESIGNER</h1>
+            <h3>Web designer and developer from Bangkok Thailand. 
+                I create <br> websites to do businesses do better <br> online.</h3>
+            <a href="#">Hire Me</a>
+        </div>
+
+        <div class="image">
+            <img src="picture.jpg" class="pic">
+        </div>
+
+        <div class="icons">
+            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h1>About Me</h1>
+        <p>Hello! I'm Kyla Calpo, a passionate web designer from Thailand. I love creating visually appealing and functional websites.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h1>My Skills</h1>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <!-- My Work Section -->
+    <section id="mywork" class="work-section">
+        <h1>My Works: Other Websites</h1>
+        <div class="work-gallery">
+            <img src="project 1.jpg" alt="Project 1">
+            <img src="project 2.jpg" alt="Project 2">
+            <img src="project 3.jpg" alt="Project 3">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h1>Contact Me</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
